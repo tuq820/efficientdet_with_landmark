@@ -8,7 +8,13 @@ add landmark to efficientdet
 
 ### 1.Data
 
-prepare data and label , example:label.txt classes.txt
+prepare data and label , example:label.txt classes.txt, front 4 is box  x1,y1,x2,y2, then is landmark  x1, y1..... 
+
+label like: # xxx.png
+
+classname1 x1 y1 x2 y2 ptx1 pty1 ptx2 pty2 ......
+
+classname2 x1 y1 x2 y2 ptx1 pty1 ptx2 pty2 ......
 
 ### 2.Train
 
